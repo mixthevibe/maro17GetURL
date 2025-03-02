@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <main>
-      <h1>URLはこちら</h1>
+      <h1>ピュアさん、URLはこちらに！</h1>
       <button onClick={createTodo}>+ new</button>
       <ul>
         {todos.map((todo) => (
@@ -47,11 +47,7 @@ export default function App() {
         ))}
       </ul>
       <div>
-        URLをどうぞ
-        <br />
-        <a href="https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/">
-          Review next steps of this tutorial.
-        </a>
+        URLをどうぞ。もし削除する場合は登録したURLをタップしてください
       </div>
     </main>
   );
